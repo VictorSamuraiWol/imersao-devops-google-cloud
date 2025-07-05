@@ -55,9 +55,9 @@ python3 -m venv ./venv
    Set-ExecutionPolicy RemoteSigned
    ```
 
-     ```sh
-     venv\Scripts\activate
-     ```
+   ```sh
+   venv\Scripts\activate
+   ```
    - Caso não funcione o comando acima, tente no Windows com bash (Git Bash ou WSL):   
      ```sh
       source venv\Scripts\activate
