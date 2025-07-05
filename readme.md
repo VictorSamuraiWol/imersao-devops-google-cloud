@@ -15,6 +15,8 @@
 
 ✅ Welcome! This is a project aimed at creating an API developed with FastAPI to manage students, courses, and enrollments at an educational institution. I am grateful to God, Alura, and Google for this opportunity.
 
+<a href="https://github.com/VictorSamuraiWol/imersao-devops-google-cloud" title="View Repository now"> 📜 Clique aqui para visualizar o repositório</a>
+
 ## 💻 Tecnologias utilizadas no projeto
 
 - [Python 3.10 ou superior instalado](https://www.python.org/downloads/)
