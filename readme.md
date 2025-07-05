@@ -27,12 +27,6 @@
 
 👉 [Clique aqui para realizar o download](https://github.com/guilhermeonrails/imersao-devops/archive/refs/heads/main.zip)
 
-Ou, se preferir, clone o projeto inicial via Git:
-
-```
-git clone https://github.com/guilhermeonrails/ellis
-```
-
 ### 2. **Criar um ambiente virtual:**
 
 No terminal Windows (cmd ou PowerShell), execute:
