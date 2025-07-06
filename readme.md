@@ -146,6 +146,28 @@ python3 -m venv ./venv
 
    *Obs: Isso irá construir a imagem e iniciar o container de forma automática.*
 
+### 14. **Resgatar $5 para seu novo projeto criado no Google Cloud:**
+
+   *Obs: Acesse o site do [Google Cloud](https://cloud.google.com/) e crie uma conta (caso ainda não tenha). Novos usuários geralmente recebem créditos gratuitos — você pode utilizá-los para testar os serviços da plataforma.*
+
+### 15. **Instalar o CLI do Google Cloud (gcloud):**
+
+   *Obs: Para interagir com os serviços do Google Cloud via terminal, é necessário instalar o `gcloud CLI`.*
+
+### 16. **Autenticar no Google Cloud e fazer o deploy:**
+
+   ```
+   gcloud auth login
+   gcloud config set project PROJECT_ID
+   gcloud run deploy --port=8000
+   ```
+
+   - gcloud auth login: abre uma janela no navegador para você se autenticar com sua conta Google.
+   - gcloud config set project PROJECT_ID: define o projeto padrão (substitua PROJECT_ID pelo ID real do seu projeto).
+   - gcloud run deploy --port=8000: faz o deploy da sua aplicação no Cloud Run.
+
+   *Obs: A imagem será enviada para o **Artifact Registry** (repositório de containers), e a aplicação será publicada no **Cloud Run**, que gera um endpoint público e escala automaticamente conforme a demanda.*
+
 ---
 
 ## Estrutura do Projeto
